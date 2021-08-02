@@ -87,7 +87,7 @@
       document.getElementById("friendship").append(friend.friendFlag)
       if (!friend.friendFlag) {
         if (confirm("คุณยังไม่ได้เพิ่ม Bot เป็นเพื่อน จะเพิ่มเลยไหม?")) {
-          window.location = "https://line.me/R/ti/p/@YOUR-BOT-ID"
+          window.location = "https://line.me/R/ti/p/@688dwbqn"
         }
       }
     }
@@ -130,13 +130,13 @@
       document.getElementById("version").append(liff.getVersion())
       document.getElementById("accessToken").append(liff.getAccessToken())
       document.getElementById("isInClient").append(liff.isInClient())
-      if (liff.isInClient()) {
-        document.getElementById("btnLogOut").style.display = "none"
-      } else {
-        document.getElementById("btnMsg").style.display = "none"
-        document.getElementById("btnScanCode").style.display = "none"
-        document.getElementById("btnClose").style.display = "none"
-      }
+      // if (liff.isInClient()) {
+      //   document.getElementById("btnLogOut").style.display = "none"
+      // } else {
+      //   document.getElementById("btnMsg").style.display = "none"
+      //   document.getElementById("btnScanCode").style.display = "none"
+      //   document.getElementById("btnClose").style.display = "none"
+      // }
     }
 
     async function main() {
